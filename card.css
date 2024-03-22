@@ -1,0 +1,103 @@
+body{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  width: 600px;
+}
+span{
+  padding: 0;
+  margin: 0;
+  width: 30px;
+}
+.header-img{
+  border-radius: 8px 8px 0 0;
+  Height: 200px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  z-index: 2;
+}
+.content{
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 399px;
+  padding-top: 55px;
+  width: 400px;
+}
+.profile-img{
+  align-items: center;
+  align-self: center;
+  border: 8px solid white;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  position: absolute;
+  top: 132px;
+  left: 225px;
+  z-index: 1;
+}
+.card{
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 7px 10px 40px rgb(89, 85, 85);
+  height: 600px;
+  margin: 10px auto;
+  padding: 0;
+  width: 400px;
+}
+.find{
+  align-items: center;
+  background-color: rgb(238, 93, 93);
+  border-radius: 40px;
+  color:white;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin: 40px auto ;
+  width: 50%;
+}
+.find:hover{
+  background-color: rgb(234, 122, 122);
+  border: 2px solid black;
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: rgb(194, 184, 95);
+}
+.space, .city-state, .material-symbols-outlined{
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+.full-name{
+  font-family: "Gayathri", sans-serif;
+  font-weight: bold;
+  color:slategray;
+}
+.location, .location2{
+  color: gray;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gayathri-thin {
+  font-family: "Gayathri", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.gayathri-regular {
+  font-family: "Gayathri", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gayathri-bold {
+  font-family: "Gayathri", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

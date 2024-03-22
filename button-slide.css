@@ -1,0 +1,63 @@
+body{
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  padding: 200px;
+}
+
+.slide-left{
+  background-color: rgb(26, 122, 90);
+  border-radius: 50px;
+  grid-area: overlap;
+  height: 60px;
+  transition: grid-area 5s;
+  width: 150px;
+}
+.slide-right{
+  align-items: center;
+  background-color: rgb(26, 122, 90);
+  border-radius: 50px;
+  grid-area: overlap2;
+  height: 60px;
+  transition: grid-area 5s;
+  width: 150px;
+}
+.sign-up{
+  align-items: center;
+  border-radius: 50px;
+  display: flex;
+  grid-area: overlap;
+  height: 60px;
+  justify-content: center;
+  width: 150px;
+}
+.log-in{
+  align-items: center;
+  border-radius: 50px;
+  display: flex;
+  grid-area: overlap2;
+  height: 60px;
+  justify-content: center;
+  width: 150px;
+}
+.container{
+  align-items: center;
+  background-color: rgb(179, 210, 204);
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-areas: "overlap overlap2";
+  height: 60px;
+  justify-content: center;
+  justify-items: center;
+  width: 320px;
+}
+.sign-up:hover, .log-in:hover{
+  cursor: pointer;
+  color:rgb(220, 198, 220);
+  font-weight: 700;
+}
